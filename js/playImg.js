@@ -9,7 +9,7 @@ function showImage(){
 	myTxt.innerHTML = txtArray[imageIndex];
 	//document.getElementById("imgTxt").style.opacity = 1 - flag;
 	imageIndex++;
-	if(imageIndex >= len){
+	if(imageIndex >= 12){
 		imageIndex = 0;
 	}
 }
